@@ -11,10 +11,10 @@
   #error You must use Inno Setup 5.5.2 or newer to compile this script
 #endif
 
-#define MyAppInstallerName "LEGOÂ® Island Alternate Installer"
+#define MyAppInstallerName "Instalador Alternativo - A Ilha LEGOÂ®"
 #define MyAppInstallerVersion "1.1.0"
-#define MyAppName "LEGOÂ® Island"
-#define MyAppNameNoR "LEGO Island"
+#define MyAppName "A Ilha LEGOÂ®"
+#define MyAppNameNoR "A Ilha LEGOÂ®"
 #define MyAppVersion "1.1.0.0"
 #define MyAppPublisher "LEGO"
 #define MyAppExeName "LEGOISLE.EXE"
@@ -39,7 +39,7 @@ WizardImageStretch=True
 WizardImageBackColor=clBlack
 ; Location of the compiled Exe
 OutputDir=bin
-OutputBaseFilename={#MyAppNameNoR} Alternate Installer {#MyAppInstallerVersion}
+OutputBaseFilename=Instalador Alternativo - {#MyAppNameNoR} {#MyAppInstallerVersion}
 ; Uninstallation stuff
 UninstallFilesDir={app}
 UninstallDisplayIcon=ISLE.ico
@@ -59,24 +59,24 @@ ShowLanguageDialog=no
 RestartIfNeededByRun=no
 
 [Languages]
-Name: "English"; MessagesFile: "compiler:Default.isl"
+Name: "Portugues"; MessagesFile: "compiler:Default.isl"
 
 [Messages]
-English.BeveledLabel={#MyAppInstallerName}
+Portugues.BeveledLabel={#MyAppInstallerName}
 ; WelcomeLabel2 is overridden because I'm unsure if every LEGO Island
 ; disc says version 1.1.0.0 or just mine.
-English.WelcomeLabel2=This will install [name] on your computer.%n%nIt is recommended that you close all other applications before continuing.
+Portugues.WelcomeLabel2=Iremos instalar [name] no seu computador.%n%nÉ recomendável que você feche todos os outros aplicativos antes de continuar.
 ; DiskSpaceMBLabel is overridden because it reports an incorrect installation size.
-English.DiskSpaceMBLabel=
+Portugues.DiskSpaceMBLabel=
 
 ; Both Types and Components sections are required to create the installation options.               
 [Types]
-Name: "Normal"; Description: "Normal Installation (Requires CD)"
-Name: "Full"; Description: "Full Installation (Does Not Require CD)"  
+Name: "Normal"; Description: "Instalação normal (requer CD)"
+Name: "Completa"; Description: "Instalação completa (não requer CD)"  
 
 [Components]
-Name: "Normal"; Description: "Normal Installation (Requires CD)"; Types: Normal
-Name: "Full"; Description: "Full Installation (Does Not Require CD)"; Types: Full 
+Name: "Normal"; Description: "Instalação normal (requer CD)"; Types: Normal
+Name: "Completa"; Description: "Instalação completa (não requer CD)"; Types: Completa 
 
 [Files]
 ; Manual, icon, license
