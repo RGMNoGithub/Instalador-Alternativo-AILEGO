@@ -1,11 +1,15 @@
-# LEGO Island Alternate Installer #
+# Instalador Alternativo - A Ilha LEGO #
 
-An alternate installer for _LEGO:registered: Island_, written using [Inno Setup](http://www.jrsoftware.org/isinfo.php) 
-to replace the original 16-bit InstallShield installer.
+Um instalador alternativo do jogo _A Ilha LEGO:registered:_, feito usando [Inno Setup](http://www.jrsoftware.org/isinfo.php) 
+para substituir o instalador 16-bit InstallShield original.
 
-This project uses code from [@bgbennyboy](https://github.com/bgbennyboy)'s [*Grim Fandango Setup*](https://github.com/bgbennyboy/Grim-Fandango-Setup-and-Launcher)
-to pull the files off the disc, modified by Triangle717 to support ANSI and Unicode Inno Setup.
+Esse projeto usa codigo do [*Grim Fandango Setup*](https://github.com/bgbennyboy/Grim-Fandango-Setup-and-Launcher) do [@bgbennyboy](https://github.com/bgbennyboy)
+para mover os arquivos fora do disco, modificado por Triangle717 para suportar ANSI e Unicode Inno Setup.
 
-# License #
+# Creditos da Tradução #
+
+RGM (http://rgmbrasil.cf) - Criar a tradução e trocar os arquivos pelas da versão brasileira.
+
+# Licença #
 
 ***LEGO Island Alternate Installer*, created 2012-2014 [Triangle717](http://Triangle717.WordPress.com).**
