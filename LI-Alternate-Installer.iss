@@ -85,26 +85,26 @@ Source: "ISLE.ico"; DestDir: "{app}"; Flags: ignoreversion
 Source: "license.txt"; DestDir: "{app}"; Flags: ignoreversion
 
 ; Standard files
-Source: "{code:GetSourceDrive}redist\directx\d3drm.dll"; DestDir: "{app}"; Flags: external ignoreversion; Components: Full Normal
-Source: "{code:GetSourceDrive}README.HLP"; DestDir: "{app}"; Flags: external ignoreversion; Components: Full Normal
+Source: "{code:GetSourceDrive}redist\directx\d3drm.dll"; DestDir: "{app}"; Flags: external ignoreversion; Components: Completa Normal
+Source: "{code:GetSourceDrive}README.HLP"; DestDir: "{app}"; Flags: external ignoreversion; Components: Completa Normal
 Source: "{code:GetSourceDrive}DATA\disk\*"; DestDir: "{app}"; Flags: external ignoreversion createallsubdirs recursesubdirs; Components: Normal
-Source: "{code:GetSourceDrive}MSREG\MSRUN.EXE"; DestName: "Msrun.exe"; DestDir: "{app}"; Flags: external ignoreversion; Components: Full Normal
-Source: "{code:GetSourceDrive}MSREG\MSREG.INI"; DestName: "Msreg.ini"; DestDir: "{app}"; Flags: external ignoreversion; Components: Full Normal
-Source: "{code:GetSourceDrive}MSREG\MSREG32.DLL"; DestName: "Msreg32.dll"; DestDir: "{app}"; Flags: external ignoreversion; Components: Full Normal
-Source: "{code:GetSourceDrive}DATA\disk\CMS16.DLL"; DestName: "CMS16.dll"; DestDir: "{app}"; Flags: external ignoreversion skipifsourcedoesntexist; Components: Full Normal
-Source: "{code:GetSourceDrive}DATA\disk\cms32_95.dll"; DestName: "cms32_95.dll"; DestDir: "{app}"; Flags: external ignoreversion skipifsourcedoesntexist; Components: Full Normal
-Source: "{code:GetSourceDrive}DATA\disk\CMS32_NT.dll"; DestName: "CMS32_NT.dll"; DestDir: "{app}"; Flags: external ignoreversion skipifsourcedoesntexist; Components: Full Normal
+Source: "{code:GetSourceDrive}MSREG\MSRUN.EXE"; DestName: "Msrun.exe"; DestDir: "{app}"; Flags: external ignoreversion; Components: Completa Normal
+Source: "{code:GetSourceDrive}MSREG\MSREG.INI"; DestName: "Msreg.ini"; DestDir: "{app}"; Flags: external ignoreversion; Components: Completa Normal
+Source: "{code:GetSourceDrive}MSREG\MSREG32.DLL"; DestName: "Msreg32.dll"; DestDir: "{app}"; Flags: external ignoreversion; Components: Completa Normal
+Source: "{code:GetSourceDrive}DATA\disk\CMS16.DLL"; DestName: "CMS16.dll"; DestDir: "{app}"; Flags: external ignoreversion skipifsourcedoesntexist; Components: Completa Normal
+Source: "{code:GetSourceDrive}DATA\disk\cms32_95.dll"; DestName: "cms32_95.dll"; DestDir: "{app}"; Flags: external ignoreversion skipifsourcedoesntexist; Components: Completa Normal
+Source: "{code:GetSourceDrive}DATA\disk\CMS32_NT.dll"; DestName: "CMS32_NT.dll"; DestDir: "{app}"; Flags: external ignoreversion skipifsourcedoesntexist; Components: Completa Normal
 
 ; Because of the disc layout, the Full installation files have to be declared
 ; separately to ensure everything is installed in their proper location.
-Source: "{code:GetSourceDrive}DATA\disk\LEGOISLE.EXE"; DestDir: "{app}"; Flags: external ignoreversion; Components: Full
-Source: "{code:GetSourceDrive}DATA\disk\ISLE.EXE"; DestDir: "{app}"; Flags: external ignoreversion; Components: Full
-Source: "{code:GetSourceDrive}DATA\disk\CONFIG.EXE"; DestDir: "{app}"; Flags: external ignoreversion; Components: Full
-Source: "{code:GetSourceDrive}DATA\disk\LEGO1.DLL"; DestDir: "{app}"; Flags: external ignoreversion; Components: Full
-Source: "{code:GetSourceDrive}DATA\disk\MFC42.DLL"; DestDir: "{app}"; Flags: external ignoreversion; Components: Full
-Source: "{code:GetSourceDrive}DATA\disk\MSVCRT.DLL"; DestDir: "{app}"; Flags: external ignoreversion; Components: Full
-Source: "{code:GetSourceDrive}Lego\Scripts\*"; DestDir: "{app}\LEGO\Scripts"; Flags: external ignoreversion recursesubdirs createallsubdirs; Components: Full
-Source: "{code:GetSourceDrive}DATA\disk\LEGO\data\*"; DestDir: "{app}\LEGO\data"; Flags: external ignoreversion; Components: Full
+Source: "{code:GetSourceDrive}DATA\disk\LEGOISLE.EXE"; DestDir: "{app}"; Flags: external ignoreversion; Components: Completa
+Source: "{code:GetSourceDrive}DATA\disk\ISLE.EXE"; DestDir: "{app}"; Flags: external ignoreversion; Components: Completa
+Source: "{code:GetSourceDrive}DATA\disk\CONFIG.EXE"; DestDir: "{app}"; Flags: external ignoreversion; Components: Completa
+Source: "{code:GetSourceDrive}DATA\disk\LEGO1.DLL"; DestDir: "{app}"; Flags: external ignoreversion; Components: Completa
+Source: "{code:GetSourceDrive}DATA\disk\MFC42.DLL"; DestDir: "{app}"; Flags: external ignoreversion; Components: Completa
+Source: "{code:GetSourceDrive}DATA\disk\MSVCRT.DLL"; DestDir: "{app}"; Flags: external ignoreversion; Components: Completa
+Source: "{code:GetSourceDrive}Lego\Scripts\*"; DestDir: "{app}\LEGO\Scripts"; Flags: external ignoreversion recursesubdirs createallsubdirs; Components: Completa
+Source: "{code:GetSourceDrive}DATA\disk\LEGO\data\*"; DestDir: "{app}\LEGO\data"; Flags: external ignoreversion; Components: Completa
 
 
 [Icons]
